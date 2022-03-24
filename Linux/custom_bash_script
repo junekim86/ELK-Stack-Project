@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#create directory
+mkdir ~research 2> /dev/null
+touch ~/research/sys_info.txt
+
+#command for finding executable files
+outputfile="home/sysadmin/research/sys_info.txt"
+echo -e "\nExec Files:" >> $outputfile
+find /home -type f -perm 777 >> $outputfile
+
+#output for top 10 processes
+echo -e "\nTop 10 processes" >> $outputfile
+ps aux -m | awk '{print $1, $2, $3, $4, $11}' | head $outputfile
