@@ -1,0 +1,29 @@
+#!/bin/bash
+
+states=('Missouri' 'Ohio' 'Florida' 'Washington' 'Texas')
+
+for state in ${states[@]};
+do
+	if [ $states = 'Hawaii'  ]
+then
+	echo "Hawaii is the best!"
+else
+	echo "I'm not fond of Hawaii"
+fi
+done
+
+numbers=('0' '1' '2' '3' '4' '5' '6' '7' '8' '9')
+
+for numbers in ${numbers[@]};
+do
+	if [ $numbers = 3 ] || [$numbers = 5 ] || [ $numbers = 7 ]
+then
+	echo $numbers
+fi
+done
+ 
+files=$(ls)
+for file in ${files[@]};
+do
+	echo $file
+done
