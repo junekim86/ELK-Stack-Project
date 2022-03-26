@@ -53,8 +53,8 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box | No                  |  108.236.42.161      |
-|          |                     |                      |
-|          |                     |                      |
+| Web-1    | Yes                 |                      |
+| Web-2    | Yes                 |                      |
 
 ### Elk Configuration
 
