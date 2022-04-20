@@ -72,6 +72,8 @@ Step 5: Install Filebeat
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
+![ELK container](https://user-images.githubusercontent.com/92124458/164341169-875c2609-774d-4c6a-855e-7dde66075701.png)
+
 ELK-Stack-Project/Ansible
 
 ### Target Machines & Beats
